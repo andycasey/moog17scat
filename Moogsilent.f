@@ -18,8 +18,7 @@ c     declared.  First, define the directory where MOOG lives, in order to
 c     be able to pull in auxiliary data files; executing 'make' will
 c     generate a reminder of this
       write (moogpath,1001)
-      moogpath = 
-     .  '/Users/alexji/lib/moog17scat'
+      moogpath = "" 
 
 
 c*****What kind of machine are you using?  Possible ones are:
